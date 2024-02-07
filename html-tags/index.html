@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- nouveau tag -->
+        <meter
+            min="0"
+            max="100"
+            low="25"
+            high="75"
+            optimum="80"
+            value="50"
+        ></meter>
+        <!-- ancien tag -->
+        <progress
+            min="0"
+            max="100"
+            low="25"
+            high="75"
+            optimum="80"
+            value="50"
+        ></progress>
+    </div>
+
+    <div>
+        <!-- tu connais ? -->
+        <input type="text" list="test">
+        <datalist id="test">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+    </div>
+
+    <div>
+        <img 
+            src="/iron-man.webp" 
+            alt="marvel - iron man"
+            usemap="#workmap"
+            width="480"
+            height="1000"
+        />
+
+        <map name="workmap">
+            <area
+                shape="rect"
+                coords="180,0,290,150"
+                alt="Casque iron man"
+                title="Casque iron man"
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.beeandsee.com%2Ffr%2Fenceintes%2F153232-enceinte-casque-iron-man-civil-war-mk46-11-bluetooth-camino-replique-4894150007103.html&psig=AOvVaw1PF6B1DS8N4TDSSIcSlZq-&ust=1681818224910000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjbnqXrsP4CFQAAAAAdAAAAABAE"
+            />
+            <area
+                shape="circle"
+                coords="190,225,25"
+                alt="Coeur iron man"
+                title="Coeur iron man"
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2F32887632527.html&psig=AOvVaw1f8tGALJoIqvIRxv-kv-7U&ust=1681818519591000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDG167ssP4CFQAAAAAdAAAAABAE"
+            />
+        </map>
+    </div>
+
+    <div>
+        <object data="/pass WAICIF 2023.pdf"></object>
+    </div>
+
+    <div>
+        <p>
+            test d'abbreviations de <abbr title="HyperText Markup Language">HTML</abbr>
+        </p>
+    </div>
+</body>
+</html>
